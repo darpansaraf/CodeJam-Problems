@@ -1,4 +1,4 @@
-bin/*
-TestResults/*
-obj/*
-
+bin/
+TestResults/
+obj/
+.suo

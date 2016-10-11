@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AnagramsTests\AnagramsTests.cs" />
     <Compile Include="LexStringWriterTests\LexStringWriterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SantaDaDhabaTests\SantaDaDhabaTests.cs" />
@@ -62,10 +63,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AnagramsTests\Anagrams.doc" />
     <None Include="LexStringWriterTests\LexStringWriter.doc" />
     <None Include="SantaDaDhabaTests\SantaDaDhaba.doc" />
     <None Include="StandInLineTests\StandInLine.doc" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

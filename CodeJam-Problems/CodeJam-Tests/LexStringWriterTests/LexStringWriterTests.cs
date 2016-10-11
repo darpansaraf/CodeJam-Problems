@@ -11,7 +11,7 @@ namespace CodeJam_Tests
         {
             var sampleInput = "earth";
             var minimumNumberOfMoves = CodeJam_Problems.LexStringWriter.LexStringWriter.GetMinimumMoves(sampleInput);
-            Assert.IsTrue(5 == minimumNumberOfMoves);
+            Assert.AreEqual(minimumNumberOfMoves, 14);
         }
 
         [TestMethod]

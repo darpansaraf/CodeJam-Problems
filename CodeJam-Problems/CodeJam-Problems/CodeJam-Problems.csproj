@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anagrams\Anagrams.cs" />
     <Compile Include="LexStringWriter\LexStringWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="SantaDaDhaba\SantaDaDhaba.cs" />
