@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anagrams\Anagrams.cs" />
+    <Compile Include="FriendScore\FriendScore.cs" />
+    <Compile Include="FriendScore\Person.cs" />
     <Compile Include="LexStringWriter\LexStringWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="SantaDaDhaba\SantaDaDhaba.cs" />
