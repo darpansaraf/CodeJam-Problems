@@ -9,7 +9,7 @@ namespace CodeJam_Problems.FriendScore
 {
     public class FriendScore
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             var friends = File.ReadAllLines(@"C:\Users\Darpan\Documents\Visual Studio 2012\Projects\SantaDaDhaba\SantaDaDhaba\FriendScore\FriendScoreInput.txt").ToList();
             int highestScore = HighestScore(friends);

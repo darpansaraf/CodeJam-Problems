@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="AnagramsTests\AnagramsTests.cs" />
+    <Compile Include="DatingTests\DatingTests.cs" />
     <Compile Include="FriendScoreTests\FriendScoreTests.cs" />
     <Compile Include="LexStringWriterTests\LexStringWriterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AnagramsTests\Anagrams.doc" />
+    <None Include="DatingTests\Dating.doc" />
     <None Include="FriendScoreTests\FriendScore.doc" />
     <None Include="LexStringWriterTests\LexStringWriter.doc" />
     <None Include="SantaDaDhabaTests\SantaDaDhaba.doc" />
